@@ -1,0 +1,460 @@
+{
+	"inventory": [
+		{
+			"_id": "68650addc4a14143ecf25dbd",
+			"name": "Blue / L",
+			"availableQuantity": 1,
+			"product": "68650addc4a14114cef25dbb",
+			"updatedAt": "2025-07-02T10:33:01.794Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/686508acf30b95665c7b0c13.jpeg",
+			"productName": "High Waist Flare Denim Jeans"
+		},
+		{
+			"_id": "68650992a6e1975b7a7b15da",
+			"name": "White / M",
+			"availableQuantity": 1,
+			"product": "68650992a6e1976bed7b15d5",
+			"updatedAt": "2025-07-02T10:27:30.123Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/686508bdd60a2329af77ed12.jpeg",
+			"productName": "White Polyester Top"
+		},
+		{
+			"_id": "68650992a6e1976d5a7b15d7",
+			"name": "White / S",
+			"availableQuantity": 1,
+			"product": "68650992a6e1976bed7b15d5",
+			"updatedAt": "2025-07-02T10:27:30.108Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/686508bdd60a2329af77ed12.jpeg",
+			"productName": "White Polyester Top"
+		},
+		{
+			"_id": "686507f7a6e1977b967b13f8",
+			"name": "Pink / L",
+			"availableQuantity": 1,
+			"product": "686507f6a6e197fd357b13f0",
+			"updatedAt": "2025-07-02T10:20:39.022Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6865076ff30b9516b27a9131.jpeg",
+			"productName": "Sparkle Petal Pink Halter Top"
+		},
+		{
+			"_id": "686507f7a6e197d9097b13f5",
+			"name": "Pink / M",
+			"availableQuantity": 1,
+			"product": "686507f6a6e197fd357b13f0",
+			"updatedAt": "2025-07-02T10:20:39.005Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6865076ff30b9516b27a9131.jpeg",
+			"productName": "Sparkle Petal Pink Halter Top"
+		},
+		{
+			"_id": "686507f6a6e197b5c17b13f2",
+			"name": "Pink / S",
+			"availableQuantity": 1,
+			"product": "686507f6a6e197fd357b13f0",
+			"updatedAt": "2025-07-02T10:20:38.970Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6865076ff30b9516b27a9131.jpeg",
+			"productName": "Sparkle Petal Pink Halter Top"
+		},
+		{
+			"_id": "686507048e0f54bef4ec39b9",
+			"name": "L / Blue",
+			"availableQuantity": 1,
+			"product": "686507048e0f54565fec39b1",
+			"updatedAt": "2025-07-02T10:16:36.226Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68650660622e38f5b3fff82d.jpeg",
+			"productName": "Navy Velvet Pearl Knot Coat"
+		},
+		{
+			"_id": "686507048e0f544778ec39b6",
+			"name": "M / Blue",
+			"availableQuantity": 1,
+			"product": "686507048e0f54565fec39b1",
+			"updatedAt": "2025-07-02T10:16:36.202Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68650660622e38f5b3fff82d.jpeg",
+			"productName": "Navy Velvet Pearl Knot Coat"
+		},
+		{
+			"_id": "686507048e0f54d156ec39b3",
+			"name": "S / Blue",
+			"availableQuantity": 1,
+			"product": "686507048e0f54565fec39b1",
+			"updatedAt": "2025-07-02T10:16:36.183Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68650660622e38f5b3fff82d.jpeg",
+			"productName": "Navy Velvet Pearl Knot Coat"
+		},
+		{
+			"_id": "686504daa6e197d2277b1056",
+			"name": "Black & White / L",
+			"availableQuantity": 1,
+			"product": "686504daa6e19734597b1051",
+			"updatedAt": "2025-07-02T10:09:40.187Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6865041cd60a234da5773df2.jpeg",
+			"productName": "Gingham Ruffle Coat Set"
+		},
+		{
+			"_id": "686504daa6e197c08e7b1053",
+			"name": "Black & White / M",
+			"availableQuantity": 1,
+			"product": "686504daa6e19734597b1051",
+			"updatedAt": "2025-07-02T10:09:40.171Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6865041cd60a234da5773df2.jpeg",
+			"productName": "Gingham Ruffle Coat Set"
+		},
+		{
+			"_id": "6865029cc4a141d52cf25356",
+			"name": "Beige / L",
+			"availableQuantity": 1,
+			"product": "6865029cc4a1411807f25351",
+			"updatedAt": "2025-07-02T09:57:53.971Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68650240622e38d5aafff215.jpeg",
+			"productName": "Florabella Silk Maxi Dress"
+		},
+		{
+			"_id": "6865029cc4a1411389f25353",
+			"name": "Beige / M",
+			"availableQuantity": 1,
+			"product": "6865029cc4a1411807f25351",
+			"updatedAt": "2025-07-02T09:57:53.957Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68650240622e38d5aafff215.jpeg",
+			"productName": "Florabella Silk Maxi Dress"
+		},
+		{
+			"_id": "686500160b7a70ebfc6418cb",
+			"name": "White / L / Pant",
+			"availableQuantity": 1,
+			"product": "686500160b7a7026f16418c3",
+			"updatedAt": "2025-07-02T09:47:02.268Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ff08f30b95b1777a86ff.jpeg",
+			"productName": "Embroidered Eyelet Cotton Suit Set (Top & Shorts)"
+		},
+		{
+			"_id": "686500160b7a707a326418c8",
+			"name": "White / S / Pant",
+			"availableQuantity": 1,
+			"product": "686500160b7a7026f16418c3",
+			"updatedAt": "2025-07-02T09:47:02.254Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ff08f30b95b1777a86ff.jpeg",
+			"productName": "Embroidered Eyelet Cotton Suit Set (Top & Shorts)"
+		},
+		{
+			"_id": "686500160b7a70db636418c5",
+			"name": "White / S / Top",
+			"availableQuantity": 2,
+			"product": "686500160b7a7026f16418c3",
+			"updatedAt": "2025-07-02T09:47:02.236Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ff08f30b95b1777a86ff.jpeg",
+			"productName": "Embroidered Eyelet Cotton Suit Set (Top & Shorts)"
+		},
+		{
+			"_id": "6864fe1f0b7a701ffc6415d1",
+			"name": "Black / M",
+			"availableQuantity": 1,
+			"product": "6864fe1f0b7a70663f6415cf",
+			"updatedAt": "2025-07-02T09:38:39.641Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864fe0bf30b957b477a85e2.jpeg",
+			"productName": "Black Zipper Dress"
+		},
+		{
+			"_id": "6864ea408e0f54a457ec1571",
+			"name": "Free Size / Black",
+			"availableQuantity": 1,
+			"product": "6864ea408e0f54f0b3ec156c",
+			"updatedAt": "2025-07-02T08:13:52.614Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864e9c0d60a231cce7725ee.jpeg",
+			"productName": "Knitted Top"
+		},
+		{
+			"_id": "6864ea408e0f54badfec156e",
+			"name": "Free Size / Khaki",
+			"availableQuantity": 1,
+			"product": "6864ea408e0f54f0b3ec156c",
+			"updatedAt": "2025-07-02T08:13:52.593Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864e9c0d60a231cce7725ee.jpeg",
+			"productName": "Knitted Top"
+		},
+		{
+			"_id": "6864dd678e0f54f39eec0611",
+			"name": "Pink / M",
+			"availableQuantity": 1,
+			"product": "6864dd678e0f54ba20ec060c",
+			"updatedAt": "2025-07-02T07:19:03.592Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864dcadf30b9528107a6a0c.jpeg",
+			"productName": "Lace Dress"
+		},
+		{
+			"_id": "6864dd678e0f547022ec060e",
+			"name": "Black / M",
+			"availableQuantity": 1,
+			"product": "6864dd678e0f54ba20ec060c",
+			"updatedAt": "2025-07-02T07:19:03.571Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864dcadf30b9528107a6a0c.jpeg",
+			"productName": "Lace Dress"
+		},
+		{
+			"_id": "6864ce92c4a141863ff20a73",
+			"name": "Khaki / S",
+			"availableQuantity": 1,
+			"product": "6864ce92c4a141fde5f20a71",
+			"updatedAt": "2025-07-02T06:15:46.707Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ce7ff30b95ea387a562c.jpeg",
+			"productName": "Khaki Linen Set"
+		},
+		{
+			"_id": "6864cba9a6e19704ef7ac0e0",
+			"name": "Green / XL",
+			"availableQuantity": 1,
+			"product": "6864cba9a6e19785eb7ac0db",
+			"updatedAt": "2025-07-02T06:03:29.301Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ca1af30b95ca337a533f.jpeg",
+			"productName": "Green Silk Pant"
+		},
+		{
+			"_id": "6864cba9a6e197fca77ac0dd",
+			"name": "Green / S",
+			"availableQuantity": 1,
+			"product": "6864cba9a6e19785eb7ac0db",
+			"updatedAt": "2025-07-02T06:03:29.287Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ca1af30b95ca337a533f.jpeg",
+			"productName": "Green Silk Pant"
+		},
+		{
+			"_id": "6864ca7c0b7a70c2ca63d099",
+			"name": "Black / M",
+			"availableQuantity": 1,
+			"product": "6864ca7c0b7a706fcd63d08f",
+			"updatedAt": "2025-07-02T05:58:20.302Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ca1af30b95ca337a533f.jpeg",
+			"productName": "Silk Long Sleeve Top"
+		},
+		{
+			"_id": "6864ca7c0b7a70dac563d096",
+			"name": "Beige / M",
+			"availableQuantity": 1,
+			"product": "6864ca7c0b7a706fcd63d08f",
+			"updatedAt": "2025-07-02T05:58:20.286Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ca1af30b95ca337a533f.jpeg",
+			"productName": "Silk Long Sleeve Top"
+		},
+		{
+			"_id": "6864ca7c0b7a70c0e563d094",
+			"name": "Black / S",
+			"availableQuantity": 0,
+			"product": "6864ca7c0b7a706fcd63d08f",
+			"updatedAt": "2025-07-02T05:58:20.275Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ca1af30b95ca337a533f.jpeg",
+			"productName": "Silk Long Sleeve Top"
+		},
+		{
+			"_id": "6864ca7c0b7a70fa3563d091",
+			"name": "Beige / S",
+			"availableQuantity": 1,
+			"product": "6864ca7c0b7a706fcd63d08f",
+			"updatedAt": "2025-07-02T05:58:20.257Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864ca1af30b95ca337a533f.jpeg",
+			"productName": "Silk Long Sleeve Top"
+		},
+		{
+			"_id": "6864c759c4a141ce80f1ffe5",
+			"name": "M / Purple",
+			"availableQuantity": 1,
+			"product": "6864c759c4a14195a9f1ffdb",
+			"updatedAt": "2025-07-02T05:44:57.997Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c72cf30b957cb27a505b.jpeg",
+			"productName": "Silk Top and Culottes Set"
+		},
+		{
+			"_id": "6864c759c4a1412a67f1ffe2",
+			"name": "S / Purple",
+			"availableQuantity": 1,
+			"product": "6864c759c4a14195a9f1ffdb",
+			"updatedAt": "2025-07-02T05:44:57.979Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c72cf30b957cb27a505b.jpeg",
+			"productName": "Silk Top and Culottes Set"
+		},
+		{
+			"_id": "6864c759c4a1412378f1ffe0",
+			"name": "M / Black",
+			"availableQuantity": 0,
+			"product": "6864c759c4a14195a9f1ffdb",
+			"updatedAt": "2025-07-02T05:44:57.967Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c72cf30b957cb27a505b.jpeg",
+			"productName": "Silk Top and Culottes Set"
+		},
+		{
+			"_id": "6864c759c4a14168fef1ffdd",
+			"name": "S / Black",
+			"availableQuantity": 1,
+			"product": "6864c759c4a14195a9f1ffdb",
+			"updatedAt": "2025-07-02T05:44:57.948Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c72cf30b957cb27a505b.jpeg",
+			"productName": "Silk Top and Culottes Set"
+		},
+		{
+			"_id": "6864c4798e0f540884ebe383",
+			"name": "White / 2XL",
+			"availableQuantity": 1,
+			"product": "6864c4798e0f54d4beebe378",
+			"updatedAt": "2025-07-02T05:32:47.877Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c3f738934f5eee19dc98.jpeg",
+			"productName": "White Stretchable Denim Jeans"
+		},
+		{
+			"_id": "6864c4798e0f54afd2ebe380",
+			"name": "White / XL",
+			"availableQuantity": 1,
+			"product": "6864c4798e0f54d4beebe378",
+			"updatedAt": "2025-07-02T05:32:47.858Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c3f738934f5eee19dc98.jpeg",
+			"productName": "White Stretchable Denim Jeans"
+		},
+		{
+			"_id": "6864c4798e0f54be99ebe37d",
+			"name": "White / L",
+			"availableQuantity": 3,
+			"product": "6864c4798e0f54d4beebe378",
+			"updatedAt": "2025-07-02T05:32:47.842Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c3f738934f5eee19dc98.jpeg",
+			"productName": "White Stretchable Denim Jeans"
+		},
+		{
+			"_id": "6864c4798e0f5491a3ebe37a",
+			"name": "White / M",
+			"availableQuantity": 1,
+			"product": "6864c4798e0f54d4beebe378",
+			"updatedAt": "2025-07-02T05:32:47.826Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/6864c3f738934f5eee19dc98.jpeg",
+			"productName": "White Stretchable Denim Jeans"
+		},
+		{
+			"_id": "68622ec7a6e1971c06758b7b",
+			"name": "Silver / 37",
+			"availableQuantity": 1,
+			"product": "68622ec7a6e19763f1758b76",
+			"updatedAt": "2025-06-30T06:31:14.813Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68622f2bb04c6225e16e3794.jpeg",
+			"productName": "Sakura Leather Shoe"
+		},
+		{
+			"_id": "68622ec7a6e1971028758b78",
+			"name": "Silver / 35",
+			"availableQuantity": 1,
+			"product": "68622ec7a6e19763f1758b76",
+			"updatedAt": "2025-06-30T06:31:14.794Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68622f2bb04c6225e16e3794.jpeg",
+			"productName": "Sakura Leather Shoe"
+		},
+		{
+			"_id": "685b78b50b7a706180585466",
+			"name": "White/ Silver / 39",
+			"availableQuantity": 1,
+			"product": "685b78b50b7a70367258545b",
+			"updatedAt": "2025-06-30T06:26:54.219Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685b7d312c91bb5ffba63b43.jpeg",
+			"productName": "Sakura Shoe"
+		},
+		{
+			"_id": "685b78b50b7a703c73585463",
+			"name": "Khaki/Gold / 38",
+			"availableQuantity": 1,
+			"product": "685b78b50b7a70367258545b",
+			"updatedAt": "2025-06-30T06:26:54.208Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685b7d312c91bb5ffba63b43.jpeg",
+			"productName": "Sakura Shoe"
+		},
+		{
+			"_id": "685b78b50b7a707c05585460",
+			"name": "Khaki/Gold / 37",
+			"availableQuantity": 1,
+			"product": "685b78b50b7a70367258545b",
+			"updatedAt": "2025-06-30T06:26:54.194Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685b7d312c91bb5ffba63b43.jpeg",
+			"productName": "Sakura Shoe"
+		},
+		{
+			"_id": "685b78b50b7a7016e258545d",
+			"name": "Khaki/Gold / 36",
+			"availableQuantity": 1,
+			"product": "685b78b50b7a70367258545b",
+			"updatedAt": "2025-06-30T06:26:54.178Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685b7d312c91bb5ffba63b43.jpeg",
+			"productName": "Sakura Shoe"
+		},
+		{
+			"_id": "68622d448e0f544857e6ad8f",
+			"name": "Rose Gold",
+			"availableQuantity": 0,
+			"product": "68622d448e0f54404ee6ad89",
+			"updatedAt": "2025-06-30T06:23:32.794Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68622ca4a8e1c5776e86f74c.jpeg",
+			"productName": "Diamond Bucket Bag"
+		},
+		{
+			"_id": "68622d448e0f546f9ee6ad8d",
+			"name": "Gold",
+			"availableQuantity": 0,
+			"product": "68622d448e0f54404ee6ad89",
+			"updatedAt": "2025-06-30T06:23:32.777Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68622ca4a8e1c5776e86f74c.jpeg",
+			"productName": "Diamond Bucket Bag"
+		},
+		{
+			"_id": "68622d448e0f5459c5e6ad8b",
+			"name": "Black",
+			"availableQuantity": 0,
+			"product": "68622d448e0f54404ee6ad89",
+			"updatedAt": "2025-06-30T06:23:32.764Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/68622ca4a8e1c5776e86f74c.jpeg",
+			"productName": "Diamond Bucket Bag"
+		},
+		{
+			"_id": "685cf5bfe1a51cc78d8aff5a",
+			"name": "White",
+			"availableQuantity": 3,
+			"product": "685cf5bfe1a51c806a8aff58",
+			"updatedAt": "2025-06-26T07:31:02.589Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685cf54f6503b8566b2595b1.jpeg",
+			"productName": "Embroidered Cotton Vest Top"
+		},
+		{
+			"_id": "685cf6f6e1a51c12f28affd9",
+			"name": "Free Size",
+			"availableQuantity": 2,
+			"product": "685cf6f6e1a51c6d228affd7",
+			"updatedAt": "2025-06-26T07:30:06.735Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685cf69c5cecae60dfd81749.jpeg",
+			"productName": "Silk-Poly Skirt"
+		},
+		{
+			"_id": "685cf4bfe1a51c30138aff1f",
+			"name": "L / Pink",
+			"availableQuantity": 1,
+			"product": "685cf4bfe1a51c57878aff11",
+			"updatedAt": "2025-06-26T07:20:31.829Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685cf421f670207b09fe8cdc.jpeg",
+			"productName": "Linen Shorts"
+		},
+		{
+			"_id": "685cf4bfe1a51c849a8aff1c",
+			"name": "M / Pink",
+			"availableQuantity": 1,
+			"product": "685cf4bfe1a51c57878aff11",
+			"updatedAt": "2025-06-26T07:20:31.815Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685cf421f670207b09fe8cdc.jpeg",
+			"productName": "Linen Shorts"
+		},
+		{
+			"_id": "685cf4bfe1a51cf41e8aff19",
+			"name": "L / Yellow",
+			"availableQuantity": 1,
+			"product": "685cf4bfe1a51c57878aff11",
+			"updatedAt": "2025-06-26T07:20:31.800Z",
+			"image": "https://storage.googleapis.com/msgsndr/Cp5GlZk7oIf5vLvPAbnm/media/685cf421f670207b09fe8cdc.jpeg",
+			"productName": "Linen Shorts"
+		}
+	],
+	"total": [
+		{
+			"total": 114
+		}
+	],
+	"traceId": "a9bfcd6b-b283-49aa-99b8-0531fbf16bb1"
+}
