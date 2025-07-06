@@ -6,11 +6,14 @@ import logging
 import requests
 from database.credentialsManagement import store_credentials
 from database.utils import init_db
+from llib.queryInventory import get_inventory, query_inventory_summary  # Add this import
+
 # Load environment variables
 load_dotenv()
 client_id = os.getenv('clientId')
 client_secret = os.getenv('clientSecret')
 domain = os.getenv('domain')
+test_location_id = os.getenv('locationId')  # Add this line
 
 # configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -26,6 +29,61 @@ app = Flask(__name__)
 @app.route('/ping', methods=['GET'])
 def ping():
     return jsonify({"message": "pong"})
+
+# Test inventory endpoint
+@app.route('/testInventory', methods=['GET'])
+def test_inventory():
+    """Test endpoint to get inventory using location ID from environment"""
+    try:
+        if not test_location_id:
+            return jsonify({
+                "success": False,
+                "message": "locationId not configured in environment variables"
+            }), 500
+        
+        logger.info(f"Testing inventory retrieval for location_id: {test_location_id}")
+        
+        # Get inventory using the queryInventory module
+        inventory_data = get_inventory(test_location_id)
+        
+        # Extract inventory list
+        inventory_list = inventory_data.get('inventory', [])
+        total_count = inventory_data.get('total', [{}])[0].get('total', 0)
+        
+        logger.info(f"Successfully retrieved {len(inventory_list)} items from total of {total_count}")
+        
+        return jsonify({
+            "success": True,
+            "message": f"Retrieved inventory for location {test_location_id}",
+            "data": {
+                "location_id": test_location_id,
+                "total_items": total_count,
+                "items_retrieved": len(inventory_list),
+                "inventory": inventory_list,
+                "trace_id": inventory_data.get('traceId', '')
+            }
+        })
+        
+    except ValueError as e:
+        logger.error(f"Invalid request: {str(e)}")
+        return jsonify({
+            "success": False,
+            "message": f"Invalid request: {str(e)}"
+        }), 400
+        
+    except RuntimeError as e:
+        logger.error(f"Runtime error: {str(e)}")
+        return jsonify({
+            "success": False,
+            "message": f"Error retrieving inventory: {str(e)}"
+        }), 500
+        
+    except Exception as e:
+        logger.error(f"Unexpected error: {str(e)}")
+        return jsonify({
+            "success": False,
+            "message": f"Unexpected error: {str(e)}"
+        }), 500
 
 # common apis end
 
