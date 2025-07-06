@@ -6,14 +6,14 @@ import logging
 import requests
 from database.credentialsManagement import store_credentials
 from database.utils import init_db
-from llib.queryInventory import get_inventory, query_inventory_summary  # Add this import
+from llib.queryInventory import get_inventory
 
 # Load environment variables
 load_dotenv()
 client_id = os.getenv('clientId')
 client_secret = os.getenv('clientSecret')
 domain = os.getenv('domain')
-test_location_id = os.getenv('locationId')  # Add this line
+test_location_id = os.getenv('locationId')
 
 # configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
