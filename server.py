@@ -141,24 +141,18 @@ def test_check_inventory():
         }), 500
 
 # Test send email endpoint
-@app.route('/testSendEmail', methods=['POST'])
+@app.route('/testSendEmail', methods=['GET'])
 def test_send_email():
-    """Test endpoint to analyze inventory and send results via email"""
+    """Test endpoint to analyze inventory and send results via email to predefined recipients"""
     try:
-        # Get target email from request body
-        request_data = request.get_json()
-        if not request_data:
-            return jsonify({
-                "success": False,
-                "message": "Request body is required"
-            }), 400
-        
-        target_email = request_data.get('target_email')
-        if not target_email:
-            return jsonify({
-                "success": False,
-                "message": "target_email is required in request body"
-            }), 400
+        # Hardcoded list of email addresses
+        target_emails = [
+            "kelvin@adrianwee.com",
+            "kelinelam@adrianwee.com", 
+            "johnny@adrianwee.com",
+            "jinxuan@adrianwee.com",
+            "leeyang4378@gmail.com"
+        ]
         
         if not test_location_id:
             return jsonify({
@@ -180,24 +174,39 @@ def test_send_email():
         logger.info("Step 3: Formatting email content...")
         email_content = format_inventory_analysis_email(analysis_results, test_location_id)
         
-        # Step 4: Send email
-        logger.info(f"Step 4: Sending email to {target_email}...")
-        send_email(
-            target_email=target_email,
-            message=email_content,
-            subject=f"Inventory Analysis Report - Location {test_location_id}"
-        )
+        # Step 4: Send email to all recipients
+        logger.info(f"Step 4: Sending emails to {len(target_emails)} recipients...")
         
-        logger.info(f"Email sent successfully to {target_email}")
+        sent_emails = []
+        failed_emails = []
+        
+        for email in target_emails:
+            try:
+                send_email(
+                    target_email=email,
+                    message=email_content,
+                    subject=f"Inventory Analysis Report - Location {test_location_id}"
+                )
+                sent_emails.append(email)
+                logger.info(f"Email sent successfully to {email}")
+            except Exception as e:
+                failed_emails.append({"email": email, "error": str(e)})
+                logger.error(f"Failed to send email to {email}: {str(e)}")
+        
+        # Determine overall success
+        overall_success = len(sent_emails) > 0
         
         return jsonify({
-            "success": True,
-            "message": f"Inventory analysis completed and email sent to {target_email}",
+            "success": overall_success,
+            "message": f"Inventory analysis completed. Emails sent to {len(sent_emails)} out of {len(target_emails)} recipients",
             "data": {
                 "location_id": test_location_id,
-                "target_email": target_email,
+                "total_recipients": len(target_emails),
+                "emails_sent": len(sent_emails),
+                "emails_failed": len(failed_emails),
+                "sent_to": sent_emails,
+                "failed_recipients": failed_emails,
                 "analysis_summary": analysis_results['summary'],
-                "email_sent": True,
                 "trace_id": inventory_data.get('traceId', '')
             }
         })
@@ -453,4 +462,4 @@ def authenticate():
 # authentication api end
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=8000)  # Bind to all interfaces
